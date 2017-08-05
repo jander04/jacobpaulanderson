@@ -1,0 +1,44 @@
+/* html elements */
+body {
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* classes elements */
+@media (min-width: 768px)
+navs.less:181
+.navbar-nav>li {
+    display: table-cell;
+    width: 1%;
+}
+.footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron, .panel-heading {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand {
+    padding: 0px 10px 15px 15px;
+}
+
+.row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row>[class*='col-'] {
+	display: flex;
+	flex-direction: column;
+}
+
+/* id elements */
