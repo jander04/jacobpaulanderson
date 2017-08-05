@@ -5,11 +5,10 @@ body {
 }
 
 /* classes elements */
-@media (min-width: 768px)
-navs.less:181
-.navbar-nav>li {
-    display: table-cell;
-    width: 1%;
+@media(max-width:767px){
+  .main-site-nav li a {
+    padding-left: 15;
+  }
 }
 .footer {
     margin-top: 30px;
