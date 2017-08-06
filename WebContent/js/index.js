@@ -16,7 +16,10 @@
 //			}
 //		});
 //		e.preventDefault();
+        if($(this).hasClass('external')){
+            return true;
+        }
 		$(this).parent().parent().children().removeClass('active');
 		$(this).parent().addClass('active')
 		return false;
-	});
+    });

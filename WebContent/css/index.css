@@ -4,6 +4,14 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* classes elements */
 @media(max-width:767px){
   .main-site-nav li a {
@@ -17,10 +25,16 @@ body {
     color: inherit;
     background-color: #eee;
     font-family: 'Open Sans', sans-serif;
+    font-size:  75%;
 }
 
 .jumbotron, .panel-heading {
     font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron {
+    background-color: #304ffe;
+    color: #000;
 }
 
 .navbar-brand {
